@@ -85,7 +85,7 @@ collisions:
   only-players-collide: false
 entities:
   armor-stands:
-    do-collision-entity-lookups: true
+    do-collision-entity-lookups: false
     tick: true
   behavior:
     baby-zombie-movement-modifier: 0.5
