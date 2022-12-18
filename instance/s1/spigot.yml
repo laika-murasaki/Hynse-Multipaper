@@ -47,8 +47,8 @@ world-settings:
   default:
     below-zero-generation-in-existing-chunks: true
     merge-radius:
-      item: 2.5
-      exp: 3.0
+      item: 3
+      exp: -1
     item-despawn-rate: 6000
     enable-zombie-pigmen-portal-spawns: true
     arrow-despawn-rate: 1200
