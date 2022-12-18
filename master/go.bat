@@ -8,6 +8,8 @@ color 0e
 
 SET runtime=%LIGHT_JDK_18%\bin\java.exe
 SET MEM=1024
-"%runtime%" -Xms%MEM%M -Xmx%MEM%M -jar MultiPaper-Master-2.10.1-all.jar 40000
+SET JAR=MultiPaper-Master-2.11.0-all
+SET PORT=40000
+"%runtime%" -Xms%MEM%M -Xmx%MEM%M -jar %JAR%.jar %PORT%
 
 pause
