@@ -29,3 +29,6 @@ master/world_the_end/DIM1/entities
 master/world_the_end/DIM1/region
 master/world_the_end/level.dat
 master/world_the_end/DIM1/data
+proxy/lang
+proxy/forwarding.secret
+proxy/plugins/bStats/config.txt
