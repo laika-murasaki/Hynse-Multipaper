@@ -24,7 +24,7 @@ enable-books: true
 # paper's per-player-mob-spawns setting set to true for this to work.
 # One quick note - this does not actually spawn mobs async (that would be very unsafe).
 # This just offloads some expensive calculations that are required for mob spawning.
-enable-async-mob-spawning: false
+enable-async-mob-spawning: true
 # Throttles the AI goal selector in entity inactive ticks.
 # This can improve performance by a few percent, but has minor gameplay implications.
 inactive-goal-selector-throttle: true
@@ -43,7 +43,7 @@ dab:
   # tick frequency. freq = (distanceToPlayer^2) / (2^value)
   # If you want further away entities to tick less often, use 7.
   # If you want further away entities to tick more often, try 9.
-  activation-dist-mod: 8
+  activation-dist-mod: 7
   # A list of entities to ignore for activation
   blacklisted-entities: []
 # Settings for things that don't belong elsewhere
