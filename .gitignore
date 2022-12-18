@@ -32,3 +32,8 @@ master/world_the_end/DIM1/data
 proxy/lang
 proxy/forwarding.secret
 proxy/plugins/bStats/config.txt
+master/lastblock.txt
+master/world/advancements
+master/world/stats
+instance/s1/.console_history
+master/world/playerdata
