@@ -1,3 +1,6 @@
 *.jar
 instance/s1/logs/latest.log
 *.log
+instance/s1/eula.txt
+*.log.gz
+*.gz

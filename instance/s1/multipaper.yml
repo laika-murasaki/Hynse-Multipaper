@@ -4,12 +4,12 @@
 # Docs: https://github.com/PureGero/MultiPaper/blob/main/MULTIPAPER_YAML.md 
 
 master-connection:
-  advertise-to-built-in-proxy: true
-  master-address: localhost:35353
-  my-name: server28824
+  advertise-to-built-in-proxy: false
+  master-address: localhost:40000
+  my-name: s1
 optimizations:
   dont-save-just-for-lighting-updates: false
-  reduce-player-position-updates-in-unloaded-chunks: false
+  reduce-player-position-updates-in-unloaded-chunks: true
   ticks-per-inactive-entity-tracking: 1
   use-event-based-io: true
 peer-connection:
