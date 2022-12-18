@@ -60,7 +60,7 @@ world-settings:
     zombie-aggressive-towards-villager: true
     wither-spawn-sound-radius: 0
     nerf-spawner-mobs: false
-    mob-spawn-range: 8
+    mob-spawn-range: 6
     entity-activation-range:
       animals: 32
       monsters: 32
